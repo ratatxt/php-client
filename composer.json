@@ -1,9 +1,9 @@
 {
-    "name": "ratatxt/php-client",
+    "name": "ratatxt/php-sms",
     "type": "library",
-    "description": "Ratatxt Library for PHP",
+    "description": "SMS Library for PHP",
     "keywords": ["ratatxt","php"],
-    "homepage": "https://github.com/ratatxt/php-client",
+    "homepage": "https://github.com/ratatxt/php-sms",
     "license": "MIT",
     "authors": [
         {
