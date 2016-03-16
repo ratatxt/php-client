@@ -1,8 +1,8 @@
 {
     "name": "ratatxt/php-sms",
     "type": "library",
-    "description": "SMS Library for PHP",
-    "keywords": ["ratatxt","php", "sms"],
+    "description": "SMS Library for PHP. Simple SMS API that uses your regular simcard load",
+    "keywords": ["ratatxt","php", "sms", "simple", "android"],
     "homepage": "https://ratatxt.com",
     "license": "MIT",
     "authors": [
