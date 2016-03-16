@@ -3,7 +3,7 @@
     "type": "library",
     "description": "SMS Library for PHP",
     "keywords": ["ratatxt","php", "sms"],
-    "homepage": "https://github.com/ratatxt/php-sms",
+    "homepage": "https://ratatxt.com",
     "license": "MIT",
     "authors": [
         {

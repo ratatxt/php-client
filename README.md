@@ -31,8 +31,8 @@ Simple usage looks like:
 ```php
     Ratatxt\Sms::setToken('sampleToken');
     $send = Ratatxt\Sms::send(array(
-        'origin' => '09353708662',
-        'address' => '09353708663',
+        'origin' => '09751303274',
+        'address' => '09XXXXXXXXX',
         'text' => 'hello from ratatxt'
     ));
 

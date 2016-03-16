@@ -15,9 +15,9 @@ try {
     $send = Ratatxt\Sms::send(array(
         // sender number
         // NOTE you can have multiple origins. check you origins on dashboard
-        'origin' => '09353708662',
+        'origin' => '09751303274',
         // receiver number
-        'address' => '09353708663',
+        'address' => '09XXXXXXXXX',
         // text message
         'text' => 'hello from ratatxt'
     ));
