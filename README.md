@@ -39,6 +39,8 @@ Simple usage looks like:
     print_r($send);
 ```
 
+Check examples [here](https://github.com/ratatxt/php-sms/tree/master/example)
+
 ## Documentation
 
 Please see http://ratatxt.com/docs for up-to-date documentation.
