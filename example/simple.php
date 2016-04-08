@@ -8,16 +8,16 @@ include_once '../init.php';
 Ratatxt\Sms::setHost('http://api.ratatxt.dev');
 // set token
 // NOTE get your token on dashboard
-Ratatxt\Sms::setToken('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbXMuZmx1dHRydGV4dC5jb20ucGgiLCJhdWQiOiJodHRwOlwvXC9hcHAuZmx1dHRydGV4dC5jb20ucGgiLCJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidXNlciI6eyJpZCI6Miwicm9sZV9pZCI6MSwibmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAb3Blbm92YXRlLmNvbSIsImNyZWF0ZWRfYXQiOiIyMDE2LTAxLTMxIDA5OjU3OjM3IiwidXBkYXRlZF9hdCI6IjIwMTYtMDEtMzEgMDk6NTc6MzcifX0.YTM9MJh3fyVMclofql_I2gFFKY9jeZlfumOZ68sykOs');
+Ratatxt\Sms::setToken('key_MS5kZjEwYWQzOTdkZTYyMzRhZmI3NWY5MzM5OTk4NGRmYjM3YjA5OTkz');
 
 // send a message
 try {
     $send = Ratatxt\Sms::send(array(
         // sender number
         // NOTE you can have multiple origins. check you origins on dashboard
-        'origin' => '09751303274',
+        'origin' => '639353708667',
         // receiver number
-        'address' => '09XXXXXXXXX',
+        'address' => '09353708662',
         // text message
         'text' => 'hello from ratatxt'
     ));

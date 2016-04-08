@@ -31,7 +31,7 @@ class Base
     {
         $response = control('curl')
 			->setUrl(self::$host . $endpoint)
-            ->setHeaders('application-authorization', self::$token);
+            ->setHeaders('Authorization', 'Basic ' . base64_encode(self::$token . ':'));
 
         if($data) {
             $response->setPostFields(json_encode($data));
@@ -48,6 +48,8 @@ class Base
 
             throw new Exception($result['error']['msg'], 1);
         }
+
+        return $result;
     }
 
     /* Protected Methods
